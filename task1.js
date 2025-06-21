@@ -47,12 +47,11 @@ class TrieNode {
   }
   
   const output = [];
-  const trie = new Trie();
-  output.push(null); 
+  const trie = new Trie(); 
+  output.push(null); git
   
   trie.insert("apple");
   output.push(null); 
-  
   output.push(trie.search("apple"));   
   output.push(trie.search("app"));     
   output.push(trie.startsWith("app")); 
